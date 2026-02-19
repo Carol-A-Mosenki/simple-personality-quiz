@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    height: auto;
+    padding: 50px;
+    background-color: rgb(242, 242, 173);
+    
+    
+    
+}
+
+.mainContainer{
+    background-color: rgb(251, 222, 141);
+    padding: 100px;
+    margin: 30px auto;
+    width: 500px;
+    text-align: center;
+    height: auto;
+    border-radius: 20px;
+    border: 5px solid rgb(64, 157, 215);
+    
+}
+
+h1{
+    text-align: center;
+}
+
+
+h2{
+    text-align: center;
+}
+
+h2:hover{
+    color: rgb(64, 157, 215) ;
+    
+}
+
+h3{
+    color: rgb(0, 0, 0);
+}
+
+#question{
+    color: rgb(64, 157, 215);
+}
+
+.border{
+    border: 3px solid black;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+#cardColor{
+    background-color: rgb(242, 242, 173);
+}
+
+.earlyBird:hover{
+    color: rgb(232, 151, 2) ;
+}
+
+.nightOwl:hover{
+    color:rgb(122, 114, 77) ;
+}
+
+.border:hover{
+    font-size: 18px;
+}
+
+#btn{
+    font-size: 25px;
+    border: 5px solid rgb(64, 157, 215);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#btn:hover{
+    background-color:rgb(126, 192, 233) ;
+}
