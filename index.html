@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bird or Owl?</title>
+</head>
+
+<body id="body">
+    <h1><span class="earlyBird">Early Bird 🦜 </span>or <span class="nightOwl">Night Owl 🦉 </span></h1>
+    <h2>Take the quiz to find out which one you are! 😎 </h2>
+    <div class="mainContainer">
+
+        <!-- FIRST QUESTION -->
+
+        <div class="border" id="cardColor"> 
+            
+            <label id="question"> 1. Your ideal wake-up time:
+            </label> <br><br>
+
+            <input type="radio" name="time" id="earlyButton1" value="Before 7am ⏰">
+            <h3>Before 7am ⏰
+            </h3>
+
+            <input type="radio" name="time" id="nightButton1" value="After 9am ⏳">
+            <h3>After 9am ⏳</h3>
+        </div>
+
+
+        <br><br>
+
+
+        <!-- SECOND QUESTION -->
+
+        <div class="border" id="cardColor">
+            <label id="question"> 2. Someone suggests a 6am workout:
+            </label> <br><br>
+
+            <input type="radio" name="workout" id="earlyButton2" value="Let's go 💪">
+            <h3>Let's go 💪
+            </h3>
+
+            <input type="radio" name="workout" id="nightButton2" value="That is a hate crime 🥵">
+            <h3>That is a hate crime 🥵</h3>
+        </div>
+
+        <br><br>
+
+
+        <!-- THIRD QUESTION -->
+
+        <div class="border" id="cardColor">
+            <label id="question"> 3. Your energy spike happens when:
+            </label> <br><br>
+
+            <input type="radio" name="energy" id="earlyButton3" value="The sun rises 🌤️">
+            <h3>The sun rises 🌤️
+            </h3>
+
+            <input type="radio" name="energy" id="nightButton3" value="The moon is out 🌙">
+            <h3>The moon is out 🌙 </h3>
+        </div>
+
+        <br><br> 
+
+
+        <!-- FOURTH QUESTION -->
+
+        <div class="border" id="cardColor">
+            <label id="question"> 4. Coffee is for:
+            </label> <br><br>
+
+            <input type="radio" name="coffee" id="earlyButton4" value="Starting the day ☕️">
+            <h3>Starting the day ☕️
+            </h3>
+
+            <input type="radio" name="coffee" id="nightButton4" value="Surviving the night 🫗">
+            <h3>Surviving the night 🫗</h3>
+        </div>
+
+        <br><br>
+
+
+        <!-- FIFTH QUESTION -->
+
+        <div class="border" id="cardColor">
+            <label id="question"> 5. You would rather:
+            </label> <br><br>
+
+            <input type="radio" name="sunstars" id="earlyButton5" value="Watch a sunrise ☀️">
+            <h3>Watch a sunrise ☀️
+            </h3>
+
+            <input type="radio" name="sunstars" id="nightButton5" value="Watch the stars ⭐️">
+            <h3>Watch the stars ⭐️</h3>
+
+
+        </div> <br><br><br>
+
+        <!-- BUTTON -->
+         
+        <button type="submit" id="btn" onclick="quizComplete()">I've finished!</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
